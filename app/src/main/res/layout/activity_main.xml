@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/spacebg"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="251dp"
+        android:layout_height="102dp"
+        android:layout_margin="90dp"
+        app:srcCompat="@drawable/safe_space_whitelogo"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <EditText
+        android:id="@+id/username"
+        style="@android:style/Widget.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/background_light"
+        android:contentDescription="username"
+        android:ellipsize="end"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="username"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="300dp"
+        tools:text="username" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/background_light"
+        android:contentDescription="password"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="363dp"
+        tools:text="password" />
+
+</android.support.constraint.ConstraintLayout>
